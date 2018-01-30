@@ -7,23 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644BE1E6201F009000BD8D72 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BE1E5201F009000BD8D72 /* CustomTextField.swift */; };
+		644BE1E9201F5CF500BD8D72 /* SignUp-Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BE1E8201F5CF500BD8D72 /* SignUp-Login.swift */; };
+		644BE1ED201F7F7500BD8D72 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BE1EC201F7F7500BD8D72 /* PopUpViewController.swift */; };
+		648B75672020000B00900B85 /* DesinableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B75662020000B00900B85 /* DesinableView.swift */; };
+		648B75692020148600900B85 /* TextBoxDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B75682020148600900B85 /* TextBoxDesign.swift */; };
 		64C51E31201526A300FE8DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C51E30201526A300FE8DD3 /* AppDelegate.swift */; };
-		64C51E33201526A300FE8DD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C51E32201526A300FE8DD3 /* ViewController.swift */; };
+		64C51E33201526A300FE8DD3 /* SignUploginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C51E32201526A300FE8DD3 /* SignUploginViewController.swift */; };
 		64C51E36201526A300FE8DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C51E34201526A300FE8DD3 /* Main.storyboard */; };
 		64C51E39201526A300FE8DD3 /* UrbanBarberTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C51E37201526A300FE8DD3 /* UrbanBarberTest.xcdatamodeld */; };
 		64C51E3B201526A300FE8DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C51E3A201526A300FE8DD3 /* Assets.xcassets */; };
 		64C51E3E201526A300FE8DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C51E3C201526A300FE8DD3 /* LaunchScreen.storyboard */; };
+		64DE9930201649E8002AC68D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DE992F201649E8002AC68D /* Bolts.framework */; };
+		64DE9932201649FA002AC68D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DE9931201649FA002AC68D /* FBSDKCoreKit.framework */; };
+		64DE993420164A05002AC68D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DE993320164A05002AC68D /* FBSDKLoginKit.framework */; };
+		64DE993620164A14002AC68D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DE993520164A14002AC68D /* FBSDKShareKit.framework */; };
+		B7513B37DABBD5C982C06B01 /* Pods_UrbanBarberTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722E7B94C5621EEA9E27EA13 /* Pods_UrbanBarberTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		644BE1E220169FA100BD8D72 /* UrbanBarberTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UrbanBarberTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		644BE1E5201F009000BD8D72 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		644BE1E8201F5CF500BD8D72 /* SignUp-Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUp-Login.swift"; sourceTree = "<group>"; };
+		644BE1EC201F7F7500BD8D72 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		648B75662020000B00900B85 /* DesinableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesinableView.swift; sourceTree = "<group>"; };
+		648B75682020148600900B85 /* TextBoxDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBoxDesign.swift; sourceTree = "<group>"; };
 		64C51E2D201526A300FE8DD3 /* UrbanBarberTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanBarberTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C51E30201526A300FE8DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64C51E32201526A300FE8DD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64C51E32201526A300FE8DD3 /* SignUploginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUploginViewController.swift; sourceTree = "<group>"; };
 		64C51E35201526A300FE8DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64C51E38201526A300FE8DD3 /* UrbanBarberTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UrbanBarberTest.xcdatamodel; sourceTree = "<group>"; };
 		64C51E3A201526A300FE8DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64C51E3D201526A300FE8DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64C51E3F201526A300FE8DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DE992F201649E8002AC68D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/FacebookSDKs-iOS-4.29.0/Bolts.framework"; sourceTree = "<group>"; };
+		64DE9931201649FA002AC68D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.29.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		64DE993320164A05002AC68D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.29.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		64DE993520164A14002AC68D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.29.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		722E7B94C5621EEA9E27EA13 /* Pods_UrbanBarberTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbanBarberTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B68E5C47AB5580373FB7FE3 /* Pods-UrbanBarberTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanBarberTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-UrbanBarberTest/Pods-UrbanBarberTest.release.xcconfig"; sourceTree = "<group>"; };
+		A3D509AA44E3206BD237088C /* Pods-UrbanBarberTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanBarberTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UrbanBarberTest/Pods-UrbanBarberTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DE993620164A14002AC68D /* FBSDKShareKit.framework in Frameworks */,
+				64DE9930201649E8002AC68D /* Bolts.framework in Frameworks */,
+				64DE9932201649FA002AC68D /* FBSDKCoreKit.framework in Frameworks */,
+				64DE993420164A05002AC68D /* FBSDKLoginKit.framework in Frameworks */,
+				B7513B37DABBD5C982C06B01 /* Pods_UrbanBarberTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211CD4D66DB4A93005B340EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64DE993520164A14002AC68D /* FBSDKShareKit.framework */,
+				64DE993320164A05002AC68D /* FBSDKLoginKit.framework */,
+				64DE9931201649FA002AC68D /* FBSDKCoreKit.framework */,
+				64DE992F201649E8002AC68D /* Bolts.framework */,
+				722E7B94C5621EEA9E27EA13 /* Pods_UrbanBarberTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		644BE1E7201F5CC000BD8D72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				644BE1E8201F5CF500BD8D72 /* SignUp-Login.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		644BE1EE201F806D00BD8D72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				644BE1EC201F7F7500BD8D72 /* PopUpViewController.swift */,
+				64C51E32201526A300FE8DD3 /* SignUploginViewController.swift */,
+				648B75682020148600900B85 /* TextBoxDesign.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		648B7565201FFFDC00900B85 /* IBDesignables */ = {
+			isa = PBXGroup;
+			children = (
+				648B75662020000B00900B85 /* DesinableView.swift */,
+			);
+			path = IBDesignables;
+			sourceTree = "<group>";
+		};
 		64C51E24201526A200FE8DD3 = {
 			isa = PBXGroup;
 			children = (
 				64C51E2F201526A300FE8DD3 /* UrbanBarberTest */,
+				762945FE91DA77B66F6A49CF /* Pods */,
 				64C51E2E201526A300FE8DD3 /* Products */,
+				211CD4D66DB4A93005B340EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +124,12 @@
 		64C51E2F201526A300FE8DD3 /* UrbanBarberTest */ = {
 			isa = PBXGroup;
 			children = (
+				648B7565201FFFDC00900B85 /* IBDesignables */,
+				644BE1EE201F806D00BD8D72 /* View */,
+				644BE1E7201F5CC000BD8D72 /* Controller */,
 				64C51E30201526A300FE8DD3 /* AppDelegate.swift */,
-				64C51E32201526A300FE8DD3 /* ViewController.swift */,
+				644BE1E220169FA100BD8D72 /* UrbanBarberTest-Bridging-Header.h */,
+				644BE1E5201F009000BD8D72 /* CustomTextField.swift */,
 				64C51E34201526A300FE8DD3 /* Main.storyboard */,
 				64C51E3A201526A300FE8DD3 /* Assets.xcassets */,
 				64C51E3C201526A300FE8DD3 /* LaunchScreen.storyboard */,
@@ -67,6 +139,15 @@
 			path = UrbanBarberTest;
 			sourceTree = "<group>";
 		};
+		762945FE91DA77B66F6A49CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3D509AA44E3206BD237088C /* Pods-UrbanBarberTest.debug.xcconfig */,
+				9B68E5C47AB5580373FB7FE3 /* Pods-UrbanBarberTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64C51E42201526A300FE8DD3 /* Build configuration list for PBXNativeTarget "UrbanBarberTest" */;
 			buildPhases = (
+				2265C6E9A2F2FB9BE9706BC3 /* [CP] Check Pods Manifest.lock */,
 				64C51E29201526A300FE8DD3 /* Sources */,
 				64C51E2A201526A300FE8DD3 /* Frameworks */,
 				64C51E2B201526A300FE8DD3 /* Resources */,
+				5648F76F2776EF67D27DC39A /* [CP] Embed Pods Frameworks */,
+				1E30D05C70D143CF0740FFA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,13 +218,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E30D05C70D143CF0740FFA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrbanBarberTest/Pods-UrbanBarberTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2265C6E9A2F2FB9BE9706BC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5648F76F2776EF67D27DC39A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrbanBarberTest/Pods-UrbanBarberTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64C51E29201526A300FE8DD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C51E33201526A300FE8DD3 /* ViewController.swift in Sources */,
+				644BE1E9201F5CF500BD8D72 /* SignUp-Login.swift in Sources */,
+				648B75672020000B00900B85 /* DesinableView.swift in Sources */,
+				644BE1ED201F7F7500BD8D72 /* PopUpViewController.swift in Sources */,
+				644BE1E6201F009000BD8D72 /* CustomTextField.swift in Sources */,
+				64C51E33201526A300FE8DD3 /* SignUploginViewController.swift in Sources */,
 				64C51E31201526A300FE8DD3 /* AppDelegate.swift in Sources */,
+				648B75692020148600900B85 /* TextBoxDesign.swift in Sources */,
 				64C51E39201526A300FE8DD3 /* UrbanBarberTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,14 +413,22 @@
 		};
 		64C51E43201526A300FE8DD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D509AA44E3206BD237088C /* Pods-UrbanBarberTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T83G838486;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UrbanBarberTest",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = UrbanBarberTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = n28.UrbanBarberTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UrbanBarberTest/UrbanBarberTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,14 +436,22 @@
 		};
 		64C51E44201526A300FE8DD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B68E5C47AB5580373FB7FE3 /* Pods-UrbanBarberTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T83G838486;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UrbanBarberTest",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = UrbanBarberTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = n28.UrbanBarberTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UrbanBarberTest/UrbanBarberTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
