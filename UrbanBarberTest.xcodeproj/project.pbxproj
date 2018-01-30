@@ -10,6 +10,7 @@
 		644BE1E6201F009000BD8D72 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BE1E5201F009000BD8D72 /* CustomTextField.swift */; };
 		644BE1E9201F5CF500BD8D72 /* SignUp-Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BE1E8201F5CF500BD8D72 /* SignUp-Login.swift */; };
 		644BE1ED201F7F7500BD8D72 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BE1EC201F7F7500BD8D72 /* PopUpViewController.swift */; };
+		647DB4F82021133200922F88 /* Desinablebutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DB4F72021133200922F88 /* Desinablebutton.swift */; };
 		648B75672020000B00900B85 /* DesinableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B75662020000B00900B85 /* DesinableView.swift */; };
 		648B75692020148600900B85 /* TextBoxDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B75682020148600900B85 /* TextBoxDesign.swift */; };
 		64C51E31201526A300FE8DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C51E30201526A300FE8DD3 /* AppDelegate.swift */; };
@@ -30,6 +31,7 @@
 		644BE1E5201F009000BD8D72 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		644BE1E8201F5CF500BD8D72 /* SignUp-Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUp-Login.swift"; sourceTree = "<group>"; };
 		644BE1EC201F7F7500BD8D72 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		647DB4F72021133200922F88 /* Desinablebutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Desinablebutton.swift; path = ../Desinablebutton.swift; sourceTree = "<group>"; };
 		648B75662020000B00900B85 /* DesinableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesinableView.swift; sourceTree = "<group>"; };
 		648B75682020148600900B85 /* TextBoxDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBoxDesign.swift; sourceTree = "<group>"; };
 		64C51E2D201526A300FE8DD3 /* UrbanBarberTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanBarberTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				648B75662020000B00900B85 /* DesinableView.swift */,
+				647DB4F72021133200922F88 /* Desinablebutton.swift */,
 			);
 			path = IBDesignables;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				64C51E31201526A300FE8DD3 /* AppDelegate.swift in Sources */,
 				648B75692020148600900B85 /* TextBoxDesign.swift in Sources */,
 				64C51E39201526A300FE8DD3 /* UrbanBarberTest.xcdatamodeld in Sources */,
+				647DB4F82021133200922F88 /* Desinablebutton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

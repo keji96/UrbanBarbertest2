@@ -11,6 +11,7 @@ import CoreData
 import Parse
 import FBSDKCoreKit
 import ParseFacebookUtilsV4
+import ParseTwitterUtils
 
 
 
@@ -34,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         Parse.initialize(with: parseConfig)
         PFFacebookUtils.initializeFacebook(applicationLaunchOptions: launchOptions)
-        
+        PFTwitterUtils.initialize(withConsumerKey: "wVgsPP1TOFjMSnqyFIRsuCDtU",  consumerSecret:"SYH0T00DxUIpEOUHnvRPXNVMoBRyOT4zjQGQ1eTKP7uVe8AVOL")
     
         
         return true

@@ -15,7 +15,7 @@ class TextBoxDesign{
         let width = CGFloat(2.0)
         let color = UIColor.white
         
-        border.borderColor = UIColor.darkGray.cgColor
+        border.borderColor = UIColor.blue.cgColor
         border.frame = CGRect(x: 0, y: textField.frame.size.height - width, width:  textField.frame.size.width, height: textField.frame.size.height)
         border.borderWidth = width
         textField.layer.addSublayer(border)

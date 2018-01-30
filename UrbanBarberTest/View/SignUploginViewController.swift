@@ -9,15 +9,22 @@
 import UIKit
 import Parse
 import ParseFacebookUtilsV4
+import ParseTwitterUtils
 
 class SignUploginViewController: UIViewController {
    
-    let backgroundImage = UIImage(named: "background.jpg")
+    
     @IBOutlet weak var passwordbox: UITextField!
     
     @IBOutlet weak var emailLoginbox: UITextField!
     
-   
+    @IBAction func manualLogIn(_ sender: Any) {
+      let userName = emailLoginbox.text
+      let password = passwordbox.text
+        SignUpLogIn().logIn(userName: userName!, password: password!)
+        
+    }
+    
     @IBAction func login(_ sender: Any) {
         let permissions = [ "public_profile" ]
         PFFacebookUtils.logInInBackground(withReadPermissions: permissions) { (user, error) in
@@ -33,10 +40,32 @@ class SignUploginViewController: UIViewController {
         }
     
     }
+    
+    
+    
+    @IBAction func twitterLogInSignUp(_ sender: Any) {
+   
+        PFTwitterUtils.logIn { (user, error) in
+            if let user = user {
+                if user.isNew {
+                    print("User signed up and logged in with Twitter!")
+                } else {
+                    print("User logged in with Twitter!")
+                }
+            } else {
+                print("Uh oh. The user cancelled the Twitter login.")
+            }
+        }
+    
+    
+    
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = UIColor(patternImage: backgroundImage!)
         TextBoxDesign().addPaddingAndBorder(to: emailLoginbox, placeholder:"Email Address")
         TextBoxDesign().addPaddingAndBorder(to: passwordbox, placeholder:"Password")
         

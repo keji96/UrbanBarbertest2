@@ -9,5 +9,5 @@
 #ifndef UrbanBarberTest_Bridging_Header_h
 #define UrbanBarberTest_Bridging_Header_h
 #import <ParseFacebookUtilsV4/PFFacebookUtils.h>
-
+#import <ParseTwitterUtils/PFTwitterUtils.h>
 #endif /* UrbanBarberTest_Bridging_Header_h */

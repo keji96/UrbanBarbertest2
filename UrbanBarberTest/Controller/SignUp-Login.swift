@@ -27,5 +27,20 @@ class SignUpLogIn {
         }
         
     }
-    
+
+    func logIn(userName: String, password:String){
+        PFUser.logInWithUsername(inBackground: userName, password: password) { (user, error) in
+            if let error = error {
+                let errorString = error.localizedDescription
+                print(errorString)
+                
+            } else {
+                print("login yeah it worked")
+                
+            }
+        }
+        
+    }
+
+
 }
